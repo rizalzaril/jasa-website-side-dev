@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+#about {
+  background-color: transparent;
+}
+#services {
+  background-color: transparent;
+}
+#testimonials {
+  background-color: transparent;
+}
+
+.animation-ease-in-left-card {
+  opacity: 0; /* Mulai dengan opasitas 0 */
+  transform: translateX(-100px); /* Mulai dari kiri dengan pergeseran -100px */
+}
+
+.animation-ease-in-top-card {
+  opacity: 0; /* Mulai dengan opasitas 0 */
+  transform: translateY(-100px); /* Mulai dengan pergeseran -100px ke atas */
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Menambahkan transisi halus */
+}
+
+.animation-ease-in-left-text {
+  opacity: 0; /* Mulai dengan opasitas 0 */
+  transform: translateX(-100px); /* Mulai dengan pergeseran -100px ke atas */
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Menambahkan transisi halus */
+}

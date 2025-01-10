@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#about {
+  background-color: #f1c40f;
+}
+#services {
+  background-color: #2ecc71;
+}
+#testimonials {
+  background-color: #e74c3c;
+}
